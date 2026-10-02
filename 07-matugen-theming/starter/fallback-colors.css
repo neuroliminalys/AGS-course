@@ -1,0 +1,11 @@
+/* Keep this readable even before Matugen has run for the first time. */
+@define-color bar_bg #202020;
+@define-color module_bg #303030;
+@define-color main_text #f0f0f0;
+@define-color muted_text #b8b8b8;
+@define-color accent #68e0c0;
+@define-color on_accent #10201b;
+@define-color outline #606060;
+@define-color warning #f2c66d;
+@define-color critical #ff7b7b;
+

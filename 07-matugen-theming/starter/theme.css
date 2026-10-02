@@ -1,0 +1,24 @@
+/*
+ * TODO: Decide how fallback and generated colors are selected. Do not blindly
+ * import a missing generated file, because that can prevent startup.
+ */
+
+.BarSurface {
+  background: @bar_bg;
+  color: @main_text;
+}
+
+.Module {
+  background: @module_bg;
+  color: @main_text;
+}
+
+.Workspace.focused {
+  background: @accent;
+  color: @on_accent;
+}
+
+.Workspace.empty {
+  color: @muted_text;
+}
+

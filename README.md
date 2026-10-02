@@ -40,17 +40,17 @@ together.
 
 ## Modules
 
-| Module | Main concept | Result |
-|---|---|---|
-| `00-orientation` | AGS versions and project setup | A verified local setup |
-| `01-layer-shell-window` | Astal windows and Wayland layers | An exclusive bar window |
-| `02-layout-and-styling` | GTK containers and CSS | A static three-region mock bar |
-| `03-reactivity-and-time` | Accessors and derived state | A reactive button and clock |
-| `04-calendar-window` | Multiple windows and GTK Calendar | A toggled calendar window |
-| `05-workspace-view-model` | Types and dynamic lists | Workspaces rendered from fixtures |
-| `06-niri-ipc` | JSON, subprocesses, and events | A Niri-backed state layer |
-| `07-matugen-theming` | Semantic colors and light/dark mode | Generated theme inputs |
-| `08-capstone` | Integration and lifecycle | Your own bar architecture |
+| Module                    | Main concept                        | Result                            |
+| ------------------------- | ----------------------------------- | --------------------------------- |
+| `00-orientation`          | AGS versions and project setup      | A verified local setup            |
+| `01-layer-shell-window`   | Astal windows and Wayland layers    | An exclusive bar window           |
+| `02-layout-and-styling`   | GTK containers and CSS              | A static three-region mock bar    |
+| `03-reactivity-and-time`  | Accessors and derived state         | A reactive button and clock       |
+| `04-calendar-window`      | Multiple windows and GTK Calendar   | A toggled calendar window         |
+| `05-workspace-view-model` | Types and dynamic lists             | Workspaces rendered from fixtures |
+| `06-niri-ipc`             | JSON, subprocesses, and events      | A Niri-backed state layer         |
+| `07-matugen-theming`      | Semantic colors and light/dark mode | Generated theme inputs            |
+| `08-capstone`             | Integration and lifecycle           | Your own bar architecture         |
 
 ## Version warning
 
@@ -72,5 +72,3 @@ Useful references:
 When something fails, reduce it to the smallest exercise that demonstrates the
 problem. Do not debug Niri, Matugen, GTK layout, and reactive state at the same
 time.
-
-# AGS-course

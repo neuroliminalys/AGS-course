@@ -1,0 +1,21 @@
+.BarSurface {
+  border-radius: 20px;
+  padding: 8px 12px;
+}
+
+.BarSection {
+  spacing: 8px;
+}
+
+.Module {
+  /* TODO: Choose padding, radius, background, and text styles. */
+}
+
+.Module:hover {
+  /* TODO: Make hover visible in both light and dark themes. */
+}
+
+.Module.active {
+  /* TODO: This will later represent a selected workspace or active service. */
+}
+

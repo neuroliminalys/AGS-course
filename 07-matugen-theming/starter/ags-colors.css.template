@@ -1,0 +1,16 @@
+/*
+ * Matugen should generate this semantic interface.
+ * TODO: Replace every placeholder with syntax valid for your installed
+ * Matugen version and chosen light/dark mode.
+ */
+
+@define-color bar_bg /* surface role */;
+@define-color module_bg /* raised surface role */;
+@define-color main_text /* experiment: accent-derived or on-surface */;
+@define-color muted_text /* lower-emphasis readable text */;
+@define-color accent /* primary role */;
+@define-color on_accent /* readable content on accent */;
+@define-color outline /* outline variant */;
+@define-color warning /* tertiary or custom role */;
+@define-color critical /* error role */;
+

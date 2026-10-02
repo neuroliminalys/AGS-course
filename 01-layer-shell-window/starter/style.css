@@ -1,0 +1,9 @@
+.BarWindow {
+  background: transparent;
+}
+
+.BarSurface {
+  /* TODO: Set a temporary background, minimum height, margin, and radius. */
+  padding: 8px 16px;
+}
+
