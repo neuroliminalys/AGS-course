@@ -7,7 +7,7 @@ Translate Niri's JSON state and events into the workspace view model from Module
 
 ## Reading
 
-- Niri IPC: <https://github.com/niri-wm/niri/blob/main/docs/wiki/IPC.md>
+- Niri IPC: <https://github.com/niri-wm/niri/wiki/IPC>
 - AGS process utilities: <https://aylur.github.io/ags/guide/utilities.html>
 
 ## Exercise 1 — Protocol observation
@@ -67,4 +67,3 @@ strings. Log failures without crashing AGS.
 - The event stream updates focus promptly.
 - Unknown JSON fields are ignored safely.
 - A failed command does not terminate the bar.
-

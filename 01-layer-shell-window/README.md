@@ -11,7 +11,7 @@ modules yet.
 - AGS intrinsic elements: <https://aylur.github.io/ags/guide/intrinsics.html>
 - Astal Window reference: <https://aylur.github.io/libastal/astal4/class.Window.html>
 - Niri layer-shell components:
-  <https://github.com/niri-wm/niri/blob/main/docs/wiki/Layer-Shell-Components.md>
+  <https://github.com/niri-wm/niri/wiki/Layer%E2%80%90Shell-Components>
 
 ## Vocabulary
 
@@ -53,4 +53,3 @@ Do not solve the three-region layout in this module.
 - Niri reserves space for it.
 - The outer margin is transparent.
 - Stopping AGS removes the reserved space.
-

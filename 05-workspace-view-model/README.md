@@ -10,7 +10,7 @@ Build and test the workspace UI using fake data before connecting it to Niri.
   <https://aylur.github.io/ags/guide/migration-guide.html>
 - AGS FAQ: <https://aylur.github.io/ags/guide/faq.html>
 - Niri workspace overview:
-  <https://github.com/niri-wm/niri/blob/main/docs/wiki/Workspaces.md>
+  <https://github.com/niri-wm/niri/wiki/Workspaces>
 
 ## Why a view model?
 
@@ -57,4 +57,3 @@ Use local test controls to:
 - State is visible through classes.
 - Components do not contain Niri command strings.
 - Fake state changes update without rebuilding the entire application.
-
