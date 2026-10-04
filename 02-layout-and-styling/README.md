@@ -32,6 +32,10 @@ Use placeholders for every future backend:
 Use CSS classes rather than large inline style strings. Define shared `Module`
 styling and modifiers such as `compact`, `active`, or `muted`.
 
+GTK layout properties are not CSS properties. For example, the distance between
+children of a `Gtk.Box` is configured on the widget with `spacing={8}`. Use CSS
+for visual styling such as colors, padding, borders, and typography.
+
 ## Exercise 3 — Width pressure
 
 Temporarily reduce the window width. Record which content should degrade first.
@@ -48,4 +52,3 @@ Suggested order:
 - The center remains stable with asymmetric side content.
 - Repeated modules share CSS.
 - No live services are involved.
-
