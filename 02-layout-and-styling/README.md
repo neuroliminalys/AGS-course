@@ -38,7 +38,21 @@ for visual styling such as colors, padding, borders, and typography.
 
 ## Exercise 3 — Width pressure
 
-Temporarily reduce the window width. Record which content should degrade first.
+The normal bar is anchored to both the left and right screen edges, so Niri
+forces it to use the monitor's full width. To test a narrower allocation,
+temporarily change the wrapper window from Module 01:
+
+1. Remove the `RIGHT` anchor, keeping only `TOP | LEFT`.
+2. Set `defaultWidth={900}` on the `<window>`.
+3. Repeat with widths such as 1200, 900, and 700 pixels.
+4. Restore the `RIGHT` anchor and remove `defaultWidth` after the exercise.
+
+`defaultWidth` is a `Gtk.Window` property, not CSS. It provides a test window
+size when layer-shell anchoring is not already forcing the width. If the child
+widgets have a larger minimum size, GTK may still allocate more than the
+requested default.
+
+Record which content should degrade first.
 Suggested order:
 
 1. Truncate media title.
